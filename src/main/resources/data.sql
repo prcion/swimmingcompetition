@@ -1,0 +1,1 @@
+INSERT INTO `user` VALUE (1, 'ion', 'ion');

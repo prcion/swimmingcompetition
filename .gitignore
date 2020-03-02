@@ -1,0 +1,10 @@
+*/.factorypath
+*.project
+*.prefs
+*.class
+*.classpath
+*target*
+target
+target/**
+*.iml
+*.idea
