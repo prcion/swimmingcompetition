@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #40241a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swimming.competition.controller.ParticipantController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="50.0" prefHeight="350.0" prefWidth="700.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <RadioButton fx:id="m50" layoutX="36.0" layoutY="39.0" mnemonicParsing="false" selected="true" text="50m" AnchorPane.topAnchor="40.0">
+               <toggleGroup>
+                  <ToggleGroup fx:id="distanceGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="m200" layoutX="36.0" layoutY="65.0" mnemonicParsing="false" text="200m" toggleGroup="$distanceGroup" AnchorPane.leftAnchor="36.0" AnchorPane.topAnchor="70.0" />
+            <RadioButton fx:id="m800" layoutX="36.0" layoutY="91.0" mnemonicParsing="false" text="800m" toggleGroup="$distanceGroup" AnchorPane.leftAnchor="36.0" AnchorPane.topAnchor="100.0" />
+            <RadioButton fx:id="m1500" layoutX="36.0" layoutY="118.0" mnemonicParsing="false" text="1500m" toggleGroup="$distanceGroup" AnchorPane.leftAnchor="36.0" AnchorPane.topAnchor="130.0" />
+            <RadioButton fx:id="liber" layoutX="145.0" layoutY="43.0" mnemonicParsing="false" selected="true" text="liber" AnchorPane.topAnchor="40.0">
+               <toggleGroup>
+                  <ToggleGroup fx:id="styleGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="spate" layoutX="145.0" layoutY="69.0" mnemonicParsing="false" text="spate" toggleGroup="$styleGroup" AnchorPane.topAnchor="70.0" />
+            <RadioButton fx:id="fluture" layoutX="145.0" layoutY="95.0" mnemonicParsing="false" text="fluture" toggleGroup="$styleGroup" AnchorPane.topAnchor="100.0" />
+            <RadioButton fx:id="mixt" layoutX="145.0" layoutY="122.0" mnemonicParsing="false" text="mixt" toggleGroup="$styleGroup" AnchorPane.topAnchor="130.0" />
+            <Text layoutX="47.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Distanta" AnchorPane.leftAnchor="47.0" />
+            <Text layoutX="156.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stil" />
+            <TextField fx:id="count" disable="true" layoutX="403.0" layoutY="299.0" AnchorPane.leftAnchor="403.0" />
+            <Text layoutX="241.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numar participanti inscrisi" AnchorPane.leftAnchor="241.0" />
+            <TableView fx:id="table" fixedCellSize="0.0" layoutX="241.0" layoutY="3.0" prefHeight="285.0" prefWidth="459.0" style="-fx-border-color: black;">
+               <columns>
+                  <TableColumn fx:id="Nume" prefWidth="136.0" style="-fx-background-color: #8d6e63; -fx-border-color: black;" text="Name">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="id" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="Varsta" prefWidth="153.0" style="-fx-background-color: #8d6e63; -fx-border-color: black;" text="Varsta">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="nume" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="Probe" prefWidth="168.0" style="-fx-background-color: #8d6e63; -fx-border-color: black;" text="Probe">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="prenume" />
+                     </cellValueFactory>
+                  </TableColumn>
+               </columns>
+            </TableView>
+            <TextField fx:id="nameTextField" layoutX="38.0" layoutY="211.0" promptText="Nume" AnchorPane.leftAnchor="38.0" />
+            <TextField fx:id="ageTextField" layoutX="38.0" layoutY="250.0" promptText="Varsta" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="510.0" />
+            <Button fx:id="addButton" layoutX="38.0" layoutY="290.0" mnemonicParsing="false" prefWidth="152.0" style="-fx-background-color: #6d4c41; -fx-border-color: black;" text="Adauga" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="290.0" />
+            <Text layoutX="52.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adaugare participant" />
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="193.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Swimming Competition" AnchorPane.bottomAnchor="356.96875" AnchorPane.leftAnchor="193.0" AnchorPane.rightAnchor="174.8125" AnchorPane.topAnchor="0.46875">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
