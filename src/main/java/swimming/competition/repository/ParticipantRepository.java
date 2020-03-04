@@ -1,5 +1,7 @@
 package swimming.competition.repository;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import swimming.competition.config.DatabaseConfig;
@@ -19,11 +21,14 @@ public class ParticipantRepository {
 	@Autowired
 	private DatabaseConfig databaseConfig;
 	
+	private static final Logger logger= LogManager.getLogger(ParticipantRepository.class);
+	
 	public int size() throws SQLException {
 		Connection con = databaseConfig.getDataSource().getConnection();
 		try(PreparedStatement preStmt=con.prepareStatement("select count(*) from participant")) {
 			try(ResultSet result = preStmt.executeQuery()) {
 				if (result.next()) {
+					logger.trace("save");
 					return result.getInt(1) + 1;
 				}
 			}
@@ -65,7 +70,7 @@ public class ParticipantRepository {
 			PreparedStatement pr = con.prepareStatement("SELECT * FROM participant where id=?");
 			pr.setInt(1, p.getIdParticipant());
 			ResultSet rs = pr.executeQuery();
-			
+			logger.trace("save");
 			while(rs.next()){
 				Participant participant = new Participant();
 				participant.setId(rs.getInt("id"));

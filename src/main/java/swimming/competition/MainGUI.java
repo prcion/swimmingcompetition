@@ -7,14 +7,10 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import swimming.competition.controller.LoginController;
-import swimming.competition.domain.Participant;
-import swimming.competition.domain.Proba;
-import swimming.competition.domain.User;
 import swimming.competition.service.ParticipantService;
 import swimming.competition.service.UserService;
 
 import java.io.IOException;
-import java.sql.SQLException;
 
 
 public class MainGUI extends Application {
@@ -35,13 +31,14 @@ public class MainGUI extends Application {
 	private void init(Stage primaryStage) throws IOException {
 		AnnotationConfigApplicationContext context = swimming.competition.Application.getContext();
 		UserService userService = context.getBean("userService", UserService.class);
+		ParticipantService participantService = context.getBean("participantService", ParticipantService.class);
 		FXMLLoader loginLoader = new FXMLLoader();
-		loginLoader.setLocation(getClass().getResource("/login.fxml"));
+		loginLoader.setLocation(getClass().getResource("/javafx/login.fxml"));
 		
 		AnchorPane loginLayot = loginLoader.load();
 		primaryStage.setScene(new Scene(loginLayot));
 		
 		LoginController loginController = loginLoader.getController();
-		loginController.setAll(userService);
+		loginController.setAll(userService, participantService);
 	}
 }

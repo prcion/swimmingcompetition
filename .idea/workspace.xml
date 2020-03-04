@@ -4,20 +4,17 @@
     <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/swimming/competition/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/swimming/competition/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/MainGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/controller/ParticipantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/controller/ParticipantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/domain/Distance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/ParticipantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/ParticipantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/javafx/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/participant.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/javafx/participant.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/swimming/competition/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/swimming/competition/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/swimming.competition-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/swimming.competition-1.0-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +49,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="swimmingcompetition: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="swimmingcompetition@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="swimmingcompetition: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="participant: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -91,10 +81,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/facultate/EvaluareaTemelor" />
+    <property name="last_opened_file_path" value="E:/woke" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition\src\main\resources" />
+      <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition\src\main\resources\javafx" />
+      <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition\src\main\resources\db" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition\src\main\resources" />
     </key>
@@ -112,7 +107,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="swimming.competition.Main" />
       <module name="swimmingcompetition" />
       <extension name="coverage">
@@ -129,6 +124,10 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/swimming.competition-1.0-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.swimming.competition-1.0-SNAPSHOT.jar" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -167,7 +166,9 @@
       <option name="presentableId" value="Default" />
       <updated>1583151676604</updated>
       <workItem from="1583151678986" duration="20555000" />
-      <workItem from="1583218670176" duration="8529000" />
+      <workItem from="1583218670176" duration="11571000" />
+      <workItem from="1583317761571" duration="2076000" />
+      <workItem from="1583319927231" duration="4057000" />
     </task>
     <servers />
   </component>

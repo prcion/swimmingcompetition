@@ -5,13 +5,20 @@ import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.stage.Stage;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import swimming.competition.domain.Participant;
 import swimming.competition.domain.ParticipantDTO;
 import swimming.competition.domain.Proba;
 import swimming.competition.service.ParticipantService;
+import swimming.competition.service.UserService;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -50,10 +57,17 @@ public class ParticipantController {
 	private Button addButton;
 	
 	private ParticipantService participantService;
+	private UserService userService;
+	@FXML
+	private Button btnLogOut;
 	
-	public void setAll(ParticipantService participantService){
+	public void setAll(ParticipantService participantService, UserService userService){
 		this.participantService = participantService;
+		this.userService = userService;
+		Stage stageBtn = (Stage) btnLogOut.getScene().getWindow();
+		stageBtn.show();
 		initAll();
+		
 	}
 	
 	private void initAll(){
@@ -144,6 +158,24 @@ public class ParticipantController {
 				}
 				count.setText(Integer.toString(lists.size()));
 			}
+		});
+		
+		btnLogOut.setOnAction(event -> {
+			btnLogOut.getScene().getWindow().hide();
+			FXMLLoader loader = new FXMLLoader();
+			loader.setLocation(getClass().getResource("/javafx/login.fxml"));
+			
+			try {
+				loader.load();
+			} catch (IOException e) {
+				showError(e.getMessage());
+			}
+			
+			Parent root = loader.getRoot();
+			Stage stage = new Stage();
+			stage.setScene(new Scene(root));
+			LoginController loginController =loader.getController();
+			loginController.setAll(userService, participantService);
 		});
 	}
 	

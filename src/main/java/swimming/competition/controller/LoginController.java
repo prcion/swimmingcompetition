@@ -8,16 +8,13 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import swimming.competition.domain.Participant;
-import swimming.competition.domain.User;
 import swimming.competition.service.ParticipantService;
 import swimming.competition.service.UserService;
 
 import java.io.IOException;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class LoginController {
@@ -32,6 +29,8 @@ public class LoginController {
 	
 	private UserService userService;
 	
+	private ParticipantService participantService;
+	
 	private void showError(String error){
 		Alert alert = new Alert(Alert.AlertType.ERROR);
 		alert.setTitle("Error!!!");
@@ -41,8 +40,27 @@ public class LoginController {
 	
 	@FXML
 	void initialize(){
+		
+		loginPassword.setOnKeyPressed(event -> {
+			if (event.getCode().equals(KeyCode.ENTER)) {
+				loginButton.fire();
+			}
+		});
+		
+		loginUsername.setOnKeyPressed(event -> {
+			if (event.getCode().equals(KeyCode.ENTER)) {
+				loginButton.fire();
+			}
+		});
+		
+		loginButton.setOnKeyPressed(event -> {
+					if (event.getCode().equals(KeyCode.ENTER)) {
+						loginButton.fire();
+					}
+				}
+		);
+		
 		loginButton.setOnAction(event -> {
-			
 			String loginTextUserName = loginUsername.getText().trim();
 			String loginTextPassword = loginPassword.getText().trim();
 			
@@ -60,16 +78,17 @@ public class LoginController {
 		});
 	}
 	
-	public void setAll(UserService userService) {
+	public void setAll(UserService userService, ParticipantService participantService) {
 		this.userService = userService;
+		this.participantService = participantService;
+		Stage stageBtn = (Stage) loginButton.getScene().getWindow();
+		stageBtn.show();
 	}
 	
 	private void showParticipantScreen(){
-		AnnotationConfigApplicationContext context = swimming.competition.Application.getContext();
-		ParticipantService participantService = context.getBean("participantService", ParticipantService.class);
 		loginButton.getScene().getWindow().hide();
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(getClass().getResource("/participant.fxml"));
+		loader.setLocation(getClass().getResource("/javafx/participant.fxml"));
 		
 		try {
 			loader.load();
@@ -81,7 +100,6 @@ public class LoginController {
 		Stage stage = new Stage();
 		stage.setScene(new Scene(root));
 		ParticipantController participant =loader.getController();
-		participant.setAll(participantService);
-		stage.showAndWait();
+		participant.setAll(participantService, userService);
 	}
 }
