@@ -1,7 +1,7 @@
 package swimming.competition.repository;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import swimming.competition.config.DatabaseConfig;
@@ -21,17 +21,24 @@ public class ParticipantRepository {
 	@Autowired
 	private DatabaseConfig databaseConfig;
 	
-	private static final Logger logger= LogManager.getLogger(ParticipantRepository.class);
+	private static final Logger logger= LogManager.getLogger();
 	
-	public int size() throws SQLException {
-		Connection con = databaseConfig.getDataSource().getConnection();
+	public int size(){
+		Connection con = null;
+		try {
+			con = databaseConfig.getDataSource().getConnection();
+		} catch (SQLException e) {
+			logger.error("error in connection " + e.getMessage());
+		}
 		try(PreparedStatement preStmt=con.prepareStatement("select count(*) from participant")) {
 			try(ResultSet result = preStmt.executeQuery()) {
 				if (result.next()) {
-					logger.trace("save");
+					logger.trace(result.getInt(1));
 					return result.getInt(1) + 1;
 				}
 			}
+		} catch (SQLException e) {
+			logger.error("error in prepared statement " + e.getMessage());
 		}
 		return 1;
 	}
@@ -70,7 +77,6 @@ public class ParticipantRepository {
 			PreparedStatement pr = con.prepareStatement("SELECT * FROM participant where id=?");
 			pr.setInt(1, p.getIdParticipant());
 			ResultSet rs = pr.executeQuery();
-			logger.trace("save");
 			while(rs.next()){
 				Participant participant = new Participant();
 				participant.setId(rs.getInt("id"));

@@ -4,17 +4,8 @@
     <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/MainGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/controller/ParticipantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/controller/ParticipantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/domain/Distance.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/ParticipantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/ParticipantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/javafx/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/participant.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/javafx/participant.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/swimming/competition/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/swimming/competition/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +160,7 @@
       <workItem from="1583218670176" duration="11571000" />
       <workItem from="1583317761571" duration="2076000" />
       <workItem from="1583319927231" duration="4057000" />
+      <workItem from="1583399428976" duration="1312000" />
     </task>
     <servers />
   </component>
