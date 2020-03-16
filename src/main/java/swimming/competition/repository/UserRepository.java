@@ -12,7 +12,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 @Repository
-public class UserRepository {
+public class UserRepository implements JPAUserRepository {
 	
 	@Autowired
 	private DatabaseConfig databaseConfig;

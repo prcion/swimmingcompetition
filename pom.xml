@@ -119,6 +119,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                    <mainClass>swimming.competition.Main</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>

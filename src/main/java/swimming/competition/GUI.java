@@ -13,7 +13,7 @@ import swimming.competition.service.UserService;
 import java.io.IOException;
 
 
-public class MainGUI extends Application {
+public class GUI extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws IOException{

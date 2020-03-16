@@ -4,8 +4,12 @@
     <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/ParticipantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/ParticipantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/ProbaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/ProbaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/swimming/competition/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/swimming/competition/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +53,7 @@
         <option value="Kotlin File" />
         <option value="Enum" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,9 +82,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition" />
       <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition\src\main\resources" />
       <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition\src\main\resources\javafx" />
       <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition\src\main\resources\db" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="swimming.competition.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\GitHub\swimmingcompetition\src\main\resources" />
@@ -161,6 +170,12 @@
       <workItem from="1583317761571" duration="2076000" />
       <workItem from="1583319927231" duration="4057000" />
       <workItem from="1583399428976" duration="1312000" />
+      <workItem from="1583409399055" duration="1178000" />
+      <workItem from="1583416478642" duration="392000" />
+      <workItem from="1583474894221" duration="3168000" />
+      <workItem from="1583481823691" duration="54000" />
+      <workItem from="1583483107360" duration="285000" />
+      <workItem from="1584366679996" duration="1791000" />
     </task>
     <servers />
   </component>

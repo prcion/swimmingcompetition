@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class ParticipantRepository {
+public class ParticipantRepository implements JPAParticipantRepository {
 	
 	@Autowired
 	private DatabaseConfig databaseConfig;

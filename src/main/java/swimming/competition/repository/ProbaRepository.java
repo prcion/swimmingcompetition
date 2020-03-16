@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class ProbaRepository {
+public class ProbaRepository implements JPAProbaRepository {
 	
 	@Autowired
 	private DatabaseConfig databaseConfig;
