@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/service/ParticipantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/service/ParticipantService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swimmingcompetition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/swimmingcompetition.iml" afterDir="false" />
-    </list>
+    <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fix" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,8 +141,44 @@
       <workItem from="1586847178964" duration="682000" />
       <workItem from="1587376158718" duration="2392000" />
       <workItem from="1587975742156" duration="9572000" />
-      <workItem from="1589269449718" duration="30000" />
+      <workItem from="1589269449718" duration="376000" />
     </task>
+    <task id="LOCAL-00001" summary="fix all">
+      <created>1589269496523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589269496523</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix">
+      <created>1589269526062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589269526062</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix">
+      <created>1589269633071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589269633071</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix">
+      <created>1589269715125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589269715125</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix">
+      <created>1589269764887</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589269764887</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,11 +196,24 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix all" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1589269764135">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1589269764135" />
     <state x="463" y="127" key="FileChooserDialogImpl" timestamp="1586848149741">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586848149741" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1589269801750">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1589269801750" />
     <state x="65" y="30" key="new project wizard" timestamp="1587376385838">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
