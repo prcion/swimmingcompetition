@@ -14,7 +14,6 @@ import java.io.IOException;
 
 
 public class GUI extends Application {
-	
 	@Override
 	public void start(Stage primaryStage) throws IOException{
 		primaryStage.setTitle("Login");
@@ -38,7 +37,7 @@ public class GUI extends Application {
 		AnchorPane loginLayot = loginLoader.load();
 		primaryStage.setScene(new Scene(loginLayot));
 		
-		LoginController loginController = loginLoader.getController();
-		loginController.setAll(userService, participantService);
+			LoginController loginController = loginLoader.getController();
+			loginController.setAll(userService, participantService);
 	}
 }

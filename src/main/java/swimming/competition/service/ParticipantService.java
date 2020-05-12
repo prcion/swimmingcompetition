@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import swimming.competition.domain.Participant;
 import swimming.competition.domain.Proba;
+import swimming.competition.repository.JPAParticipantRepository;
+import swimming.competition.repository.JPAProbaRepository;
 import swimming.competition.repository.ParticipantRepository;
 import swimming.competition.repository.ProbaRepository;
 
@@ -14,10 +16,10 @@ import java.util.List;
 public class ParticipantService {
 	
 	@Autowired
-	private ParticipantRepository participantRepository;
+	private JPAParticipantRepository participantRepository;
 	
 	@Autowired
-	private ProbaRepository probaRepository;
+	private JPAProbaRepository probaRepository;
 	
 	public int save(Participant participant) throws SQLException {
 		int index = participantRepository.save(participant);
