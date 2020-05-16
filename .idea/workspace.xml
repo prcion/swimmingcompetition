@@ -25,6 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/MyClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589615667390</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add field b">
+      <created>1589615788450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589615788450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,21 +233,22 @@
     <MESSAGE value="fix all" />
     <MESSAGE value="fix" />
     <MESSAGE value="create MyClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="create MyClass" />
+    <MESSAGE value="add field b" />
+    <option name="LAST_COMMIT_MESSAGE" value="add field b" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1589615276201">
+    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1589615787699">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1589615276201" />
+    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1589615787699" />
     <state x="463" y="127" key="FileChooserDialogImpl" timestamp="1586848149741">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586848149741" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1589615608477">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1589615765944">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1589615608477" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1589615765944" />
     <state x="65" y="30" key="new project wizard" timestamp="1587376385838">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
