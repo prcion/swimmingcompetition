@@ -16,19 +16,10 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:erros" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swimming/competition/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swimming/competition/MyClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fix" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,9 +103,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.swimming.competition-1.0-SNAPSHOT.jar" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JAR Application.swimming.competition-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JAR Application.swimming.competition-1.0-SNAPSHOT.jar" />
       </list>
@@ -154,7 +142,6 @@
       <workItem from="1587376158718" duration="2392000" />
       <workItem from="1587975742156" duration="9572000" />
       <workItem from="1589269449718" duration="376000" />
-      <workItem from="1589615153060" duration="194000" />
     </task>
     <task id="LOCAL-00001" summary="fix all">
       <created>1589269496523</created>
@@ -191,14 +178,7 @@
       <option name="project" value="LOCAL" />
       <updated>1589269764887</updated>
     </task>
-    <task id="LOCAL-00006" summary="create MyClass">
-      <created>1589615277070</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1589615277070</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,19 +189,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="erros" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -231,22 +199,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix all" />
     <MESSAGE value="fix" />
-    <MESSAGE value="create MyClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="create MyClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1589615276201">
+    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1589269764135">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1589615276201" />
+    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1589269764135" />
     <state x="463" y="127" key="FileChooserDialogImpl" timestamp="1586848149741">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586848149741" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1589615305335">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1589269801750">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1589615305335" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1589269801750" />
     <state x="65" y="30" key="new project wizard" timestamp="1587376385838">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
