@@ -1,3 +1,3 @@
 public class My {
-    private int id;
+    private String id;
 }

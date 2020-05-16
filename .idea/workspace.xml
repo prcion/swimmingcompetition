@@ -20,14 +20,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:fix" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:my" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98c73c89-0287-4620-aea8-0f09a38f4cdb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/My.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/My.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fix" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,8 +113,9 @@
       <list>
         <item itemvalue="JAR Application.swimming.competition-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JAR Application.swimming.competition-1.0-SNAPSHOT.jar" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +207,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="my" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -229,18 +241,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586848149741" />
-    <state x="129" y="56" key="MergeDialog" timestamp="1589615999824">
+    <state x="129" y="56" key="MergeDialog" timestamp="1589616132679">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1589615999824" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1589269801750">
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1589616132679" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1589616085058">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1589269801750" />
-    <state x="403" y="82" key="git4idea.branch.GitSmartOperationDialog" timestamp="1589615995553">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1589616085058" />
+    <state x="403" y="82" key="git4idea.branch.GitSmartOperationDialog" timestamp="1589616127929">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="403" y="82" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.738@0.0.1366.738" timestamp="1589615995553" />
+    <state x="403" y="82" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.738@0.0.1366.738" timestamp="1589616127929" />
     <state x="65" y="30" key="new project wizard" timestamp="1587376385838">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
